@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "webpack-dev-server --inline --hot",
+    "start": "webpack-dev-server --inline --hot",
     "start_html":"webpack --config webpack.html.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

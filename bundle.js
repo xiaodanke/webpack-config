@@ -170,7 +170,7 @@ exports = module.exports = __webpack_require__(2)();
 
 
 // module
-exports.push([module.i, "body{\r\n\tbackground:blue;\r\n}", ""]);
+exports.push([module.i, "body{\r\n\tbackground:pink;\r\n}", ""]);
 
 // exports
 

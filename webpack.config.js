@@ -1,5 +1,4 @@
-var htmlWebpackPlugin  = require("html-webpack-plugin");
-
+//var htmlWebpackPlugin  = require("html-webpack-plugin");
 module.exports = {
 	entry:'./entry.js',
 	output:{
@@ -15,10 +14,10 @@ module.exports = {
 			{test:/\.css$/,loader:'style-loader!css-loader'},
 			{test:/\.js$/,loader:'babel-loader'}
 		]
-	},
-	plugins:[
-		new htmlWebpackPlugin({
-			title:"北京欢迎你"
-		})
-	]
+	}
+	// plugins:[
+	// 	new htmlWebpackPlugin({
+	// 		title:"北京欢迎你"
+	// 	})
+	// ]
 }
